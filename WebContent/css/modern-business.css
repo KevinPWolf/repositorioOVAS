@@ -1,0 +1,251 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.logo-image{
+   width: 260px;
+   height: 80px;
+   border-radius: 0%;
+   /*overflow: hidden;*/
+   margin-top: -10px;
+}
+
+.logo-text{
+   width: 280px;
+   height: 80px;
+   border-radius: 0%;
+   /*overflow: hidden;*/
+   margin-top: -50px;
+   margin-left: -80px;
+}
+
+.logo-btn{
+  width: 100%;
+  height: 60%;
+  float: left;
+  padding: 4px;
+  background: #e5e5e5;
+  color: white;
+  font-size: 20px;
+  border: 0px solid #356d2b;
+  /*border-left: none;  Prevent double borders */
+  cursor: pointer;
+}
+
+.bg-red{
+  background-color: #e5e5e5;
+}
+
+/* Style the search field */
+.search-bar input[type=text]{
+  padding: 10px;
+  font-size: 25px;
+  border: 1px solid grey;
+  float: left;
+  width: 150%;
+  background: #f1f1f1;
+}
+
+/* Style the search field */
+.search-bar input[type=text]:focus:not([readonly]) {
+  padding: 10px;
+  font-size: 25px;
+  border: 1px solid #d1bb20;
+  float: left;
+  width: 150%;
+  background: #f1f1f1;
+  box-shadow: 0 0 0 1px #d1bb20;
+}
+
+/* Style the submit button */
+.search-button {
+  float: left;
+  width: 40px;
+  padding: 4px;
+  background: #71d060;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #356d2b;
+  /*border-left: none;  Prevent double borders */
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background: #83199c;
+  color: white;
+}
+
+.profile-button {
+  float: left;
+  width: 50px;
+  padding: 1px;
+  background: #71d060;
+  color: white;
+  font-size: 25px;
+  border: 1px solid #356d2b;
+  /*border-left: none;  Prevent double borders */
+  cursor: pointer;
+}
+
+.profile-button:hover {
+  background: #83199c;
+  color: white;
+}
+
+/* Clear floats */
+.searchbar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 5;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 700px;
+    }
+}
+.card-image{
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: -5px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+h2{
+  display: inline-block;
+  padding-right: 150px;
+  text-align:center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 250px;
+  text-shadow: 2px 2px 2px gray;
+}
+
+h4{
+  text-indent:120px;
+  text-align:left;
+  margin-bottom: -20px;
+}
+
+h3{
+  display: flex;
+  padding-left: 20px;
+  padding-right: 150px;
+  text-align:center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.btn-cards{
+  width: 100%;
+  height: 60%;
+  float: left;
+  padding: 4px;
+  background: #356d2b;
+  color: white;
+  font-size: 20px;
+  border: 0px solid #356d2b;
+  /*border-left: none;  Prevent double borders */
+  cursor: pointer;
+}
+
+.card-header{
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  background-color: #71d060;
+  color: white;
+  align-content: center;
+}
+
+.card{
+  margin-top: 50px;
+}
+
+.search-header{
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #e5e5e5;
+  color: #000;
+}
+
+.custom-select{
+  display: flex;
+  width: 40%;
+  margin-right: 100px;
+}
+
+.btn-min{
+  width: 50%;
+  height: 50%;
+  float: left;
+  padding: 4px;
+  background: #356d2b;
+  color: white;
+  font-size: 20px;
+  border: 0px solid #356d2b;
+  /*border-left: none;  Prevent double borders */
+  cursor: pointer;
+}
